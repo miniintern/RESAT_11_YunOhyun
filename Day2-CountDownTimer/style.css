@@ -1,0 +1,48 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.timer-body{
+    text-align: center;
+    border: 2px solid #000;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.input-container{
+    margin-bottom: 20px;        
+}
+
+.input-container input{
+    font-size: 24px;
+    width: 60px;
+    text-align: center;
+    margin: 0 5px;
+}
+
+.display{
+    font-size: 48px;
+    margin-bottom: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.buttons input {
+    font-size: 16px;
+    padding: 10px 20px;
+    border: 2px solid black;
+    background: none;
+    cursor: pointer;
+}
